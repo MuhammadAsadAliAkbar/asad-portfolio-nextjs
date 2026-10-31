@@ -36,7 +36,7 @@ const PYTHON_API =
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://portfrontend-delta.vercel.app",
+  "https://asad-portfolio-nextjs.vercel.app",
 ];
 
 app.use(
