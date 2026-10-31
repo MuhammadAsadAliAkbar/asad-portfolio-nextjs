@@ -1,0 +1,45 @@
+import express from "express";
+
+import {
+  getMessages,
+  sendMessage,
+  markMessagesRead,
+  pusherAuth
+} from "../controllers/messageController.js";
+
+import authMiddleware from "../middleware/authMiddleware.js";
+
+const router =
+  express.Router();
+
+/* Conversation */
+
+router.get(
+  "/:userId",
+  authMiddleware,
+  getMessages
+);
+
+/* Mark read */
+
+router.patch(
+  "/:userId/read",
+  authMiddleware,
+  markMessagesRead
+);
+
+/* Send */
+
+router.post(
+  "/",
+  authMiddleware,
+  sendMessage
+);
+
+router.post(
+  "/pusher/auth",
+  authMiddleware,
+  pusherAuth
+);
+
+export default router;
