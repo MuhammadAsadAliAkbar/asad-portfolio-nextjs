@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const experience = [
   {
-    year: "2023 — 2026",
+    year: "Aug 2023 — Aug 2026",
     title: "Senior MERN Stack Developer",
     company: "QBS.CO",
     description:
@@ -17,7 +17,7 @@ const experience = [
     skills: ["React", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    year: "2020 — 2022",
+    year: "Oct 2020 — Oct 2022",
     title: "Associate MERN Stack Developer",
     company: "Bitwits",
     description:
@@ -26,7 +26,7 @@ const experience = [
     skills: ["React", "JavaScript", "REST APIs", "Responsive UI"],
   },
   {
-    year: "2018 — 2019",
+    year: "Nov 2018 — Nov 2019",
     title: "Junior MERN Stack Developer",
     company: "Viznode",
     description:
@@ -35,7 +35,7 @@ const experience = [
     skills: ["Full Stack", "JavaScript", "Backend Integration", "Agile"],
   },
   {
-    year: "2016 — 2017",
+    year: "Jun 2016 — Jun 2017",
     title: "MERN Stack Developer",
     company: "Panacloud",
     description:

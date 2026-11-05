@@ -24,6 +24,8 @@ const skills = [
       ["Socket.IO", "fas fa-plug", 88],
       ["WebSocket", "fas fa-bolt", 85],
       ["gRPC", "fas fa-network-wired", 80],
+      ["Microservices", "fas fa-sitemap", 85],
+      ["Shopify API", "fab fa-shopify", 85],
     ],
   },
 
@@ -59,6 +61,9 @@ const skills = [
       ["MySQL", "fas fa-database", 85],
       ["SQL", "fas fa-database", 88],
       ["Redis", "fas fa-memory", 82],
+      ["Elasticsearch", "fas fa-magnifying-glass", 80],
+      ["Supabase", "fas fa-database", 82],
+      ["Firebase", "fas fa-fire", 82],
     ],
   },
 
@@ -72,6 +77,17 @@ const skills = [
       ["Prisma", "fas fa-database", 85],
       ["Sequelize", "fas fa-database", 80],
       ["Knex.js", "fas fa-database", 82]
+    ],
+  },
+
+  // =========================
+  // MESSAGING & STREAMING
+  // =========================
+  {
+    category: "Messaging & Streaming",
+    items: [
+      ["Kafka", "fas fa-stream", 80],
+      ["RabbitMQ", "fas fa-envelope-open-text", 80],
     ],
   },
 
